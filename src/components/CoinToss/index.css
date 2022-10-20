@@ -1,0 +1,35 @@
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(#e2a139, #49d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result-container {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+
+.image {
+  height: 180px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-left: 20px;
+  min-width: 70px;
+}
